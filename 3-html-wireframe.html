@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>Exercise 3: HTML wireframe</title>
+        <title>xinliazure</title>
         <meta charset="UTF-8">
         <meta name="description" content="A basic HTML layout styles with CSS.">
         <meta name="keywords" content="HTML,CSS,layout,wireframe,mmc3260">
@@ -11,33 +11,72 @@
     </head>
 
     <body>
-
-        <header>
-            <h1>HTML wireframe layout</h1>
-        </header>
-
-        <nav>
-            <a href="1-html-quick-fix.html">HTML quick fix</a>
-            <a href="2-html-links-and-images.html">HTML links and images</a>
-            <a href="#footer">Copyright</a>
-        </nav>
-
+            
+            <div id="wrapper">
+            
+           <header>
+                <h1>Xin Li</h1>
+                <h4>A Flaneur's Wonderland</h4>   
+                <img src="flower.jpg" alt=Flower width="80" height="80"/>
+           </header>
+            </div>
+        
+           <nav>
+            <a href="about.html">About Xin</a>
+            <a href="resume.html">Resume</a>
+            <a href="lens.html">Lens</a>
+            <a href="pen.html">Pen</a>
+            <a href="footprint.html">Footprint</a>
+            <a href="contact.html">Contact</a>
+           </nav>
+            
         <article>
-
-            <section>
-                <h2>Section heading</h2>
-                <p>Put whatever you want here.</p>
-            </section>
-
-            <aside>
-                <h2>Aside heading</h2>
-                <p>Be careful about having an aside element just for dumping other things. This area, however, might be a great spot for sharing tools or related links to this article.
-            </aside>
+            <h1>Summary of Pages</h1>
+            <ul>
+               <li><span>About: A Brief Introduciton to Xin</span></li>
+                <li><span>Resume</span></li>
+                <li><span>Lens: Photography work</span></li>
+                <li><span>Pen: Writing samples</span></li>
+                <li><span>Footprint: Travel logs</span></li>
+            </ul>
+            
+            
+            <div id="Photo"> 
+	<figure class="left">
+		<img src="photo.JPG" width="300" height="300" alt="Xin Li Profile Picture" title="Xin Li Profile Picture" />
+		<figcaption><i>Xin Li</i></figcaption>
+	</figure>
+	</div>
+            <div>
+                <h2>A Brief Introduction of Xin</h2>
+                <p>Xin is a student at the <a href="http://www.ufl.edu" target="_blank">University of Florida</a>. She is seeking her master degree in Telecommunication at the <a href="http://www.jou.ufl.edu" target="_blank">College of Journalism and Communications</a>. In the past few years, Xin has been a:
+         <ul>
+	 		<li><span>News correspondent</span></li> 
+	 		<li><span>Photographer</span></li>
+	 		<li><span>Writer</span></li>
+	 		<li><span>Social media operator</span></li>
+	 		<li><span>World traveler</span></li>
+	 	</ul>
+            <p>Xin is fascinated by visual media while she is eager to learn more about the world of non-fiction writing. She aspires to have a career in the multimedia industry.</p>
+            </div>
 
         </article>
 
-        <footer>
-            <p id="copyright">&copy; 2013. Content in your projects should be all original. Any content from additional sources should explicitly state the source and give credit. The GIFs used in these exercises were found on <a href="http://giphy.com/">Giphy</a>. If these exercises were intended for public viewing, I should track down the actually copyright owner for all of the images I used.</p>
+    
+	<footer>
+	<nav role="navigation">
+		<a href="about.html">About Xin</a>
+            <a href="resume.html">Resume</a>
+            <a href="lens.html">Lens</a>
+            <a href="pen.html">Pen</a>
+            <a href="footprint.html">Footprint</a>
+            <a href="contact.html">Contact</a> 
+        <a class="footerclear" href="mailto:1225xinli@gmail.com">Email Me</a>
+		</nav>        
+        
+    
+            <p> Site maintainted by Xin Li</p>
+            <p><br>&copy; Copyright 2014</p>
         </footer>        
 
     </body>
